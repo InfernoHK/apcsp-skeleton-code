@@ -62,7 +62,7 @@ def wikipedia_game_solver(start_page, target_page):
 
 # Example usage:
 start_page = wiki_wiki.page('Nina Tandon')
-target_page = wiki_wiki.page('United States')
+target_page = wiki_wiki.page('Italian language')
 path = wikipedia_game_solver(start_page, target_page)
 print("Shortest path:", path)
 
