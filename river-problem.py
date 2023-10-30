@@ -51,11 +51,11 @@ def dfs(current_state, win_state):
 
 
     for state in next_states:
-        if state not in visited_states
-        path.append(state)
-        if dfs(state, win_state) == True:
-            return True
-        path.pop()
+        if state not in visited_states:
+            path.append(state)
+            if dfs(state, win_state) == True:
+                return True
+            path.pop()
     
 # Test your code! Does it solve the river crossing riddle?
 initial_state = {
